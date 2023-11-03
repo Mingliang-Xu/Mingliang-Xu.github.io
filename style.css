@@ -1,4 +1,93 @@
-h1 {
-  color: yellow;
+* {
   background-color: slategray;
+  font-family: "Comfortaa", sans-serif;
+  color: yellow;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  display: inline-block;
+}
+
+#name-tag {
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 750px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.nav-tag {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+.main-div {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 200px;
+}
+h1,
+h3 {
+  padding: 20px;
+}
+
+button {
+  color: slategrey;
+  background-color: yellow;
+  display: inline-block;
+  justify-content: space-between;
+  height: 35px;
+  width: 120px;
+  border: transparent;
+  border-radius: 100px;
+  box-shadow: 0 0 2px 2px yellow;
+  margin: 35px;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0.01rem;
+  right: 0.02rem;
+  color: slategrey;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background: yellow;
+  box-shadow: 0 0 2px 2px yellow;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+
+  background-color: slategray;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
 }
